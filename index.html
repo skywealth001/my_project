@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Graceland Polytechnic Offa - Registration</title>
+</head>
+<body style="font-family: 'Times New Roman', 'Arial'; background-color: #f2f2f2; margin: 0; padding: 0;">
+
+  <div style="background-color: #0e083f; color: white; padding: 20px; text-align: center;">
+    <h1 style="margin: 0;">GRACELAND POLYTECHNIC OFFA</h1>
+  </div>
+
+  <div style="max-width: 900px; margin: 30px auto; background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    <h2 style="text-align: center; margin-bottom: 30px;">REGISTRATION FORM</h2>
+
+    <form method="POST" action="submit.php" enctype="multipart/form-data">
+
+      <div style="margin-bottom: 15px;">
+        <label>ENROLLMENT ID:</label><br>
+        <input type="text" name="enrollment_id" style="width: 100%; padding: 5px;">
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <label>Upload Passport:</label><br>
+        <input type="file" name="passport" style="width: 100%; padding: 10px;">
+      </div>
+
+      <div style="display: flex; gap: 20px; margin-bottom: 15px;">
+        <div style="flex: 1;">
+          <label>REGISTRATION NUMBER:</label><br>
+          <input type="text" name="reg_number" style="width: 100%; padding: 5px;">
+        </div>
+        <div style="flex: 1;">
+          <label>SURNAME:</label><br>
+          <input type="text" name="surname" style="width: 100%; padding: 5px;">
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 20px; margin-bottom: 15px;">
+        <div style="flex: 1;">
+          <label>FIRST NAME:</label><br>
+          <input type="text" name="first_name" style="width: 100%; padding: 5px;">
+        </div>
+        <div style="flex: 1;">
+          <label>MIDDLE NAME:</label><br>
+          <input type="text" name="middle_name" style="width: 100%; padding: 5px;">
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 20px; margin-bottom: 15px;">
+        <div style="flex: 1;">
+          <label>DATE OF BIRTH:</label><br>
+          <input type="date" name="dob" style="width: 100%; padding: 5px;">
+        </div>
+        <div style="flex: 1;">
+          <label>GENDER:</label><br>
+          <select name="gender" style="width: 100%; padding: 5px;">
+            <option value="">Select</option>
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 20px; margin-bottom: 15px;">
+        <div style="flex: 1;">
+          <label>MARITAL STATUS</label>
+          <select name="marital_status" style="width: 100%; padding: 5px;">
+            <option value="">Select</option>
+            <option>Single</option>
+            <option>Married</option>
+            <option>Divorced</option>
+          </select>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 20px; margin-bottom: 15px;">
+        <div style="flex: 1;">
+          <label>NATIONALITY:</label>
+          <input type="text" name="nationality" style="width: 100%; padding: 5px;">
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 20px; margin-bottom: 15px;">
+        <div style="flex: 1;">
+          <label>EMAIL:</label><br>
+          <input type="email" name="email" style="width: 100%; padding: 5px;">
+        </div>
+        <div style="flex: 1;">
+          <label>PHONE NUMBER:</label><br>
+          <input type="tel" name="phone" style="width: 100%; padding: 5px;">
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 20px; margin-bottom: 15px;">
+        <div style="flex: 1;">
+          <label>STATE OF ORIGIN:</label><br>
+          <input type="text" name="state_of_origin" style="width: 100%; padding: 5px;">
+        </div>
+        <div style="flex: 1;">
+          <label>LGA:</label><br>
+          <input type="text" name="lga" style="width: 100%; padding: 5px;">
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 20px; margin-bottom: 15px;">
+        <div style="flex: 1;">
+          <label>MATRICULATION NUMBER:</label><br>
+          <input type="text" name="matric_no" style="width: 100%; padding: 5px;">
+        </div>
+        <div style="flex: 1;">
+          <label>DEPARTMENT:</label><br>
+          <input type="text" name="department" style="width: 100%; padding: 5px;">
+        </div>
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <label>ADDRESS:</label><br>
+        <textarea name="address" rows="3" style="width: 100%; padding: 5px;"></textarea>
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <label>RELIGION</label>
+        <select name="religion" style="width: 100%; padding: 5px;">
+          <option value="">Select</option>
+          <option>Christianity</option>
+          <option>Muslim</option>
+        </select>
+      </div>
+
+      <div style="text-align: center; margin-top: 30px;">
+        <button type="submit" style="background-color: #0e083f; color: white; padding: 12px 30px; border: none; border-radius: 4px; font-size: 16px;">Submit</button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
